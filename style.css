@@ -37,12 +37,13 @@
 * {
   box-sizing: border-box;
 }
+
 /* Typography */
 
 h1 {
   font-size: var(--font-large);
   font-weight: var(--weight-bold);
-  color: var(--color-black);
+  color: var(--color-pupple);
   margin: 16px 0px;
 }
 
