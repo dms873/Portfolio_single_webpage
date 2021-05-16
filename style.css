@@ -208,6 +208,11 @@ p {
   align-items: center;
 }
 
+.job__logo {
+  width: 55px;
+  height: 55px;
+}
+
 .job__description {
   margin: 0 16px;
   text-align: left;
@@ -215,7 +220,7 @@ p {
 
 .job__name,
 .job__period {
-  color: light var(--color-light-grey);
+  color: var(--color-light-grey);
 }
 
 .job__name {
@@ -225,3 +230,5 @@ p {
 .job__period {
   font-size: var(--font-micro);
 }
+
+/* Skills */
