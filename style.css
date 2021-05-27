@@ -114,7 +114,7 @@ p {
 
 #navbar.navbar--dark {
   background-color: var(--color-light-purple);
-  padding: 8px;
+  padding: 0 8px;
 }
 
 .navbar__menu {
@@ -131,7 +131,10 @@ p {
   color: var(--color-white);
   cursor: pointer;
   border-radius: var(--size-border-radius);
-  border: 1px solid transparent;
+}
+
+.navbar__menu__item.active {
+  border: 1px solid var(--color-white);
 }
 
 .navbar__menu__item:hover {
@@ -540,7 +543,7 @@ p {
 
   .navbar__menu {
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     width: 100%;
     display: none;
   }
